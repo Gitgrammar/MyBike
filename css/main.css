@@ -34,6 +34,7 @@ color:#ffffff !important;
     text-align: right;
     margin-top:5px;
     margin-bottom: 0.5cm;
+    margin-right:2cm;
 }
 img {
    position: relative;
@@ -56,6 +57,7 @@ table{
     width:475px;
     padding-top: 19cm;
     margin-top: 20cm;
+    margin-right:0.2cm;
     margin: 100px auto;
     border-radius:2cm;
 }
@@ -67,9 +69,12 @@ table *{
   }
   table tbody tr:nth-child(even){
     background-color: #d0dedd;}
-    h3{
+    h4{
       position: relative;
       margin-top: 0.5cm;
+      margin-left:1cm;
+      margin-right:2cm;
+    
     text-align: right;
     font-size: 2vw;
     text-shadow:0.02em 0.02em 0 #123456, -0.02em 0.02em 0 #123456, 0.02em -0.02em 0 #123456, -0.02em -0.02em 0 #123456, 0.04em 0.04em 0 #123456, 0.06em 0.06em 0 #123456, 0.08em 0.08em 0.04em rgba(0, 0, 0, 0.3);
