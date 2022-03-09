@@ -2,7 +2,7 @@ header>div{
   
   position:absolute;
   margin-top: 1cm;
-  margin-bottom: 5cm;
+  margin-bottom: 2cm;
   top:0;
   right:0;
   width:100%;
@@ -12,8 +12,9 @@ header>div{
 }
 body{
   display:block;
-  
+
 }
+
 @media screen and(min-width:767px){
   img{
     font-size: 1vw;
@@ -31,6 +32,8 @@ color:#ffffff !important;
 }
  .container{
     text-align: right;
+    margin-top:5px;
+    margin-bottom: 0.5cm;
 }
 img {
    position: relative;
@@ -43,6 +46,7 @@ img {
     margin-bottom: 90px;
    
   }
+
 
 
 table{
