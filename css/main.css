@@ -14,6 +14,12 @@ body{
   display:block;
   
 }
+@media screen and(min-width:767px){
+  img{
+    font-size: 1vw;
+  }
+  
+}
 h1{
     margin-top: 0.5cm;
     text-align: center;
@@ -58,9 +64,10 @@ table *{
   table tbody tr:nth-child(even){
     background-color: #d0dedd;}
     h3{
+      position: relative;
       margin-top: 0.5cm;
     text-align: right;
-    font-size: 3vw;
+    font-size: 2vw;
     text-shadow:0.02em 0.02em 0 #123456, -0.02em 0.02em 0 #123456, 0.02em -0.02em 0 #123456, -0.02em -0.02em 0 #123456, 0.04em 0.04em 0 #123456, 0.06em 0.06em 0 #123456, 0.08em 0.08em 0.04em rgba(0, 0, 0, 0.3);
 color:#ffffff !important;
 -ms-filter:"DropShadow(color=#123456,offx=2,offy=2)";
