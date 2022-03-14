@@ -12,14 +12,6 @@ header>div{
 }
 body{
   display:block;
-
-}
-
-@media screen and(min-width:767px){
-  img{
-    font-size: 1vw;
-  }
-  
 }
 h1{
     margin-top: 0.5cm;
@@ -44,7 +36,7 @@ img {
     margin: 50px;
     right: 405px;
     transform: translateX(65%);
-    margin-bottom: 90px;
+    margin-bottom: 83px;
    
   }
 
@@ -93,7 +85,7 @@ color:#ffffff !important;
     right:10px;
     left:1px;
     margin-top:285px;
-    margin-bottom: 30px;
+    margin-bottom: -165px;
     padding-bottom: 4px;
   }
   p{
@@ -119,3 +111,27 @@ color:#ffffff !important;
     max-width:100%;
  
   }
+  @media screen and (min-width:1200px){
+    header h1{
+      font-size:3vw;
+    }
+  }
+  /*600px以下で適用*/
+  @media screen and (max-width:600px){
+    header h1{
+      font-size:4vw;
+    }
+    main h2{
+      font-size:3.5vw;
+    }
+  }
+   
+  /*480px以下で適用*/
+  @media screen and (max-width:480px){
+    img{
+     
+    width:100%;
+   
+   }
+  }
+  
