@@ -53,6 +53,7 @@ table{
     margin-right:0.2cm;
     margin: 100px auto;
     border-radius:2cm;
+    
 }
 table *{
     border:1px solid #ddd;text-align: center;
@@ -125,6 +126,9 @@ color:#ffffff !important;
     }
     main h2{
       font-size:3.5vw;
+    }
+    h4 {
+      font-size: 2vw;
     }
   }
    
