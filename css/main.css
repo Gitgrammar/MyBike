@@ -13,6 +13,10 @@ header>div{
 body{
   display:block;
 }
+.item{
+  width: 400px;
+
+}
 h1{
     margin-top: 0.5cm;
     text-align: center;
@@ -48,7 +52,7 @@ table{
     right:-222px;
     top :95px;
     width:475px;
-    padding-top: 19cm;
+    padding-top: 1cm;
     margin-top: 20cm;
     margin-right:0.2cm;
     margin: 100px auto;
@@ -128,7 +132,7 @@ color:#ffffff !important;
       font-size:3.5vw;
     }
     h4 {
-      font-size: 2vw;
+      font-size: 3vw;
     }
   }
    
